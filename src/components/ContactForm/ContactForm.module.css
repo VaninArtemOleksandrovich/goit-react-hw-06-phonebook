@@ -1,0 +1,45 @@
+.form {
+  padding: 15px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgb(220, 231, 255);
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 8px;
+  color: rgb(220, 231, 255);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.full {
+  margin-bottom: 15px;
+  width: 360px;
+  height: 25px;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgb(220, 231, 255);
+  font-size: 18px;
+  color: rgb(220, 231, 255);
+}
+
+.add {
+  margin-bottom: 15px;
+  color: rgb(220, 231, 255);
+  background: #283657;
+  border: none;
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.add:hover {
+  background-color: #667db3;
+}

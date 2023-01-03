@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.btn {
+  color: rgb(220, 231, 255);
+  background: #283657;
+  border: none;
+  width: 80px;
+  height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 10px;
+
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover {
+  background-color: #667db3;
+}
